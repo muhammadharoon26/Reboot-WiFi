@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.alert import Alert
-import os
 
 # browser = webdriver.Chrome()
 # chrome_options=Options()
