@@ -1,14 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.alert import Alert
 
-# browser = webdriver.Chrome()
-# chrome_options=Options()
-
-# chrome_options.headless = True # also works
-# driver = webdriver.Chrome(options=chrome_options)
 options = webdriver.ChromeOptions()
 
 options.add_argument("--headless")
